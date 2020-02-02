@@ -18,10 +18,10 @@ public static void main(String[] args) {
 //WebDriver driver=new ChromeDriver();
 driver.get("https://www.toolsqa.com/automation-practice-form/");
 WebElement con = driver.findElement(By.id("continentsmultiple"));
-Select s=new Select(con);
+//Select s=new Select(con);
 
 //s.selectByValue("AF");
-s.selectByVisibleText("Europe");
+//s.selectByVisibleText("Europe");
 //s.selectByIndex(2);
 
 //List<WebElement> op=s.getOptions();
