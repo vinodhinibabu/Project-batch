@@ -34,5 +34,7 @@ s.selectByVisibleText("Europe");
 	//String at=x.getAttribute("value");
 //System.out.println(at);
 //}
+System.out.println("abc");
+System.out.println("xyx");
 }
 }
