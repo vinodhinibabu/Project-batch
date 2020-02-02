@@ -15,8 +15,9 @@ public static void main(String[] args) {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\COM\\eclipse-workspace\\selenium\\driver\\chromedriver.exe");
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.toolsqa.com/automation-practice-form/");
-//WebElement con = driver.findElement(By.id("continentsmultiple"));
+WebElement con = driver.findElement(By.id("continentsmultiple"));
 //Select s=new Select(con);
+System.out.println("code");
 
 //s.selectByValue("AF");
 //s.selectByVisibleText("Europe");
