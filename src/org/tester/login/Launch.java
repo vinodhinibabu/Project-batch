@@ -12,10 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Launch {
 public static void main(String[] args) {
-	System.out.println("abc");
-	System.out.println("xyx");
-	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\COM\\eclipse-workspace\\selenium\\driver\\chromedriver.exe");
-//WebDriver driver=new ChromeDriver();
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\COM\\eclipse-workspace\\selenium\\driver\\chromedriver.exe");
+WebDriver driver=new ChromeDriver();
 driver.get("https://www.toolsqa.com/automation-practice-form/");
 WebElement con = driver.findElement(By.id("continentsmultiple"));
 //Select s=new Select(con);
@@ -36,6 +34,5 @@ WebElement con = driver.findElement(By.id("continentsmultiple"));
 	//String at=x.getAttribute("value");
 //System.out.println(at);
 //}
-
 }
 }
